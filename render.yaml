@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: mutant-detector-api
+    env: docker
+    rootDir: Mercado_Libre_Mutantes-main/Mercado_Libre_Mutantes-main
+    dockerfilePath: Dockerfile
+    autoDeploy: true
