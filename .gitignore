@@ -1,0 +1,30 @@
+# Maven build output
+/target/
+
+# Logs
+*.log
+
+# IDE metadata
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Coverage & reports
+jacoco.exec
+/site/
+
+# Generated files
+*.class
+
+# Backup files
+*~
+
+# Ignore nested duplicate build artifacts if any
+Mercado_Libre_Mutantes-main/Mercado_Libre_Mutantes-main/target/
