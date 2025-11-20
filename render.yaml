@@ -2,8 +2,5 @@ services:
   - type: web
     name: mutant-detector-api
     env: docker
-    # Opción 1: indicar ruta completa del Dockerfile y no usar rootDir
-    dockerfilePath: Mercado_Libre_Mutantes-main/Mercado_Libre_Mutantes-main/Dockerfile
+    rootDir: Mercado_Libre_Mutantes-main/Mercado_Libre_Mutantes-main
     autoDeploy: true
-    # Si prefieres usar rootDir, elimina la linea dockerfilePath y agrega:
-    # rootDir: Mercado_Libre_Mutantes-main/Mercado_Libre_Mutantes-main
